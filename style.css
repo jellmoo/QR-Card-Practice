@@ -91,24 +91,21 @@ body {
   }
   
   @media (max-width: 480px) { 
-    /* Adjustments for smaller screens */
     .container {
       max-width: 18rem;
     }
   }
   
   @media (min-width: 768px) { 
-    /* Adjustments for tablets */
     .container {
-      max-width: 25rem;
+      max-width: 20rem;
       padding: 24px;
     }
   }
   
   @media (min-width: 1024px) { 
-    /* Adjustments for desktops */
     .container {
-      max-width: 30rem;
+      max-width: 20rem;
     }
   }
   
