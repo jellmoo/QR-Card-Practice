@@ -65,6 +65,7 @@ body {
     padding: 16px;
     border-radius: 20px;
     background: #fff;
+    margin: auto;
   }
 
   img {
@@ -72,6 +73,7 @@ body {
     display: block;
     height: auto;
     max-width: 100%;
+    margin: auto;
   }
 
   h2 {
@@ -86,5 +88,27 @@ body {
     font-size: 0.9375rem;
     line-height: 140%;
     letter-spacing: 0.0125em;
+  }
+  
+  @media (max-width: 480px) { 
+    /* Adjustments for smaller screens */
+    .container {
+      max-width: 18rem;
+    }
+  }
+  
+  @media (min-width: 768px) { 
+    /* Adjustments for tablets */
+    .container {
+      max-width: 25rem;
+      padding: 24px;
+    }
+  }
+  
+  @media (min-width: 1024px) { 
+    /* Adjustments for desktops */
+    .container {
+      max-width: 30rem;
+    }
   }
   
